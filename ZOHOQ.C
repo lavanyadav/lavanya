@@ -4,8 +4,8 @@ void main()
 {
 char s[100];
 int l,j,i,k,m;
-l=strlen(s);
 scanf("%s",s);
+l=strlen(s);
 if(l%2==1)
 {       m=l/2;
 	for(i=l;i>0;i--)
